@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>incrementor with binding</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <script src='./app/entries.js'></script>
+
+  <script src='./test/write.js'></script>
+  <script src='./test/read.js'></script>
+  <script src='./test/find.js'></script>
+  <script src='./test/remove.js'></script>
+  <script src='./test/clear.js'></script>
+  <script src='./test/render-entry.js'></script>
+  <script src='./test/render-entries.js'></script>
+
+  <script src='./init.js'></script>
+
+</head>
+
+<body>
+  <section id='user-interface'>
+    key: <input type='text' id='key-input' /> <br>
+    value: <input type='text' id='value-input' /> <br>
+    <button id='write-button'>write entry</button> <br>
+    <button id='read-button'>read by key</button> <br>
+    <button id='find-button'>find by value</button> <br>
+    <button id='remove-button'>remove by key</button> <br>
+    <button id='view-all-button'>view all</button> <br>
+    <button id='reset-button'>reset</button>
+    <hr>
+    <div id='display'></div>
+  </section>
+
+
+  <script src='./interactions/write.js'></script>
+  <script src='./interactions/read.js'></script>
+  <script src='./interactions/find.js'></script>
+  <script src='./interactions/remove.js'></script>
+  <script src='./interactions/view-all.js'></script>
+  <script src='./interactions/reset.js'></script>
+</body>
+
+</html>
