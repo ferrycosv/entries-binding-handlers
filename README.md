@@ -29,7 +29,6 @@ Looking for a bonus?  Set up a project board in the main group repository and tr
 * `read.js`
 * `find.js`
 * `remove.js`
-* `read.js`
 * `view-all.js`
 
 ### `./test/`
